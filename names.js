@@ -7,3 +7,5 @@ function createPerson(firstName, lastName) {
 
 const person = createPerson("Anna", "Rossi")
 console.log(person)
+
+module.export = createPerson
