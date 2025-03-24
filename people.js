@@ -1,7 +1,7 @@
 const hobbies = require("./hobbies")
 const fullNames = require("./names")
 
-function peoples() {
+function people() {
     return {
         hobbies,
         fullNames
@@ -9,4 +9,4 @@ function peoples() {
     }
 }
 
-peoples()
+console.log(people())

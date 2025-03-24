@@ -8,4 +8,4 @@ function createPerson(firstName, lastName) { // firstName e lastName = parametri
 const person = createPerson("Anna", "Rossi") //argomenti quando vado a chiamare la funzione
 console.log(person)
 
-module.export = createPerson
+module.exports = createPerson
