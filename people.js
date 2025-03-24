@@ -3,8 +3,8 @@ const fullNames = require("./names")
 
 function people() {
     return {
-        hobbies,
-        fullNames
+        hobbies: hobbies("videogiochi", "lettura", "coding"),
+        fullNames: fullNames("Anna", "Rossi")
 
     }
 }
