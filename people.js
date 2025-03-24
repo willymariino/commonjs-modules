@@ -1,9 +1,9 @@
 const hobbies2 = require("./hobbies")
-const hobbies2 = require("./names")
+const names2 = require("./names")
 
 function peoples() {
-    hobbie("videogiochi", "lettura", "coding")
-    person("Anna", "Rossi")
+    hobbies2("videogiochi", "lettura", "coding")
+    names2("Anna", "Rossi")
     return {
 
     }
